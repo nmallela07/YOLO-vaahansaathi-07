@@ -12,6 +12,7 @@ build/
 
 # YOLO model weights (large binary files)
 *.onnx
+!new.onnx
 *.pt
 *.weights
 
