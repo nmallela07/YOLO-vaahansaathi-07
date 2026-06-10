@@ -1,0 +1,48 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+
+# YOLO model weights (large binary files)
+*.onnx
+*.pt
+*.weights
+
+# Uploaded media files in results (images & videos)
+static/results/**/*.mp4
+static/results/**/*.avi
+static/results/**/*.mov
+static/results/**/*.mkv
+static/results/**/*.wmv
+static/results/**/*.jpg
+static/results/**/*.jpeg
+static/results/**/*.png
+static/results/**/*.gif
+static/results/**/*.webp
+static/results/**/*.bmp
+
+# Keep static/results directory structure but not media files
+# (detections.csv files inside result folders will still be tracked)
+
+# Batch test result images
+static/results/batch_test/*.jpg
+static/results/batch_test/*.jpeg
+static/results/batch_test/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
